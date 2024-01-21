@@ -59,6 +59,58 @@ s=(q-o)⊤v/||v||=(q-o)⊤(normalized v)<br>
 **p**:p point; **c**:one point on plane;**n**:(normalized) normal vector<br>
 s=(**p**-**c**)⊤**n**<br>
 s=0 On the plane<br>
+s:signed distance to the plane.有符号的距离<br>
+### Particle-Sphere Collision
+粒子p沿着v碰撞到圆心为c的圆，碰撞点是**p**(t).<bt>
+||**p**(t)-**c**||² =r² <br>
+(**p**-**c**+t**v**)•(**p**-**c**+t**v**)=r²<br>
+(**V**•**v**)t²+2(**p**-**c**)•**v**t+(**p**-**c**)•(**p**-**c**)-r²=0<br>
+关于t的一元二次方程<br>
+*No root:不相交<br>
+*One root:相切<br>
+*Two root:穿过<br>
+### Vector Arithematic:Cross Product
+The result of a product is a vector:**r**=**p**x**q**<br>
+**r**•**p**=0 **r**•**q**=0 ||**r**||=||**p**||||**q**||sin⊖<br>
+**p**x**q**=-**q**x**p**<br>
+if **p**x**q**=0,then **p**and**q** are parallel.<br>
+### Triangle Normal and Area
+**x0**,**x1**,**x2** three points ⊖**x0**Angle<br>
+Edge vectors:**x10**=**x1**-**x0** **x20**=**x2**-**x0**<br>
+Normal:**n**=(**x10**x**x20**)/||**x10**x**x20**||<br>
+Area:A=||**x10**||||**x20**||sin⊖/2=||**x10**x**x20**||/2<br>
+The normal depends on the triangle index order(顶点顺序),also known as topological order.<br>
+### Triangle Inside/Outside Test
+点p相对于**x0**,**x1**来说，是不是在**x2**那边,四个点全在同一平面上<br>
+如果在同侧，叉乘结果与**n**相同方向<br>
+if **p**is inside of **x0****x1**,then:(**x0**-**p**)x(**x1**-**p**)•**n**>0<br>
+三条边全部>0,Inside of triangle<br>
+### Barycentric Coordinates
+A2:signed area<br>
+Inside:(**x0**-**p**)x(**x1**-**p**)•**n**/2=||(**x0**-**p**)x(**x1**-**p**)||/2=A2<br>
+Outside=Negative=A2<br>
+A=A0+A1+A2<br>
+Barycentric weights of **p**:b0=A0/A b1=A1/A b2=A2/A<br>
+b0+b1+b2=1<br>
+Barycentric Interpolation:**p**=b0**x0**+b1**x1**+b2**x2**
+算p点位置颜色<br>
+Barycentric weight allows the interior points of a triangle to be interpolated.<br>
+Gouraud shading:In a traditional graghic pipeline,pixel colors are calculated at triangle vertices first,and then interpolated within.<br>
+### Tetrahedral Volume
+Edge vectors:**X10**=**x1**-**x0** **x20**=**x2**-**x0** **x30**=**x3**=**x0**<br>
+Base triangle area:A=||**x10**x**x20**||/2<br>
+Height:h=**x30**•**n**(在n上的投影)=**x30**•**x10**x**x20**/||**X10**x**x20**||<br>
+Volume:V=hA/3=**x30**•**x10**x**x20**/6<br>
+### Barycentric Weights
+**p** splits the tetrahedron into four sub-tetrahedra:V1,V2,V3,V0<br>
+**p** is inside if and only if:V0,V1,V2,V3>0<br>
+b0=V0/V b1 b2 b3<br>
+**p**=b0**x0**+b1**x1**+b2**x2**+b3**x3**<br>
+### Particle-triangle Intersection
+三角形不动，粒子撞击<br>
+Find t when the particle hits the plane:(**p**-**X0**+t**v**)•**x10**x**x20**=0<br>
+then check if **p(t)** is inside or not
+
 
 
 
