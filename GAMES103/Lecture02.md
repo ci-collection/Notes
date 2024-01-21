@@ -110,6 +110,54 @@ b0=V0/V b1 b2 b3<br>
 三角形不动，粒子撞击<br>
 Find t when the particle hits the plane:(**p**-**X0**+t**v**)•**x10**x**x20**=0<br>
 then check if **p(t)** is inside or not
+## Matrices
+Definition:A real matrix is a set of real elements arranged in rows and columns.<br>
+Transpose:A⊤<br>
+Symmetric:沿着对角的轴对称 A=A⊤<br>
+Diagonal:对角上有值，其他地方全是0.<br>
+identity:对角上全是1，其他全是0.<br>
+### Matrix:Multiplication
+Omitted<br>
+AB not= BA  (AB)⊤=B⊤A⊤ AA⊤即为对称矩阵.(A⊤A)⊤=AA⊤<br>
+A+A⊤也是symmetric<br>
+AA⁻¹=I inverse. (AB)⁻¹=B⁻¹A⁻¹<br>
+Not every matrix is invertible.e.g.A=[0]<br>
+### Matrix:Orthogonality
+An orthogonal matrix is a matrix made of orthogonal unit vectors.<br>
+里面全是相互正交的单位矩阵.<br>
+A⊤A=I then A⊤=A⁻¹<br>
+### Matrix Transformation
+A rotation can be represented by an orthogonal matrix.<br>
+**uvw**是旋转后的物体坐标系.<br>
+A**x**=**u** A**y**=**v** A**x**=**w**<br>
+AI=[**u v w**]=A then A is orthogonal matrix.<br>
+<br>
+A scaling can be represented by a diagonal matrix.<br>
+D=[dx dy dz] consisting of scaling factors.<br>
+### Singular Value Decomposition 奇异值分解
+A matrix can be decomposed into: **A**=**UDV**⊤.<br>
+such that **D** is diagonal,and **U** and **V** are orthogonal. **D** is Singular Value.<br>
+Graphic meaning:<br>
+Any linear deformation can be decomposed into three steps:rotation,scaling and rotation.<br>
+### Eigenvalue Decomposition 特征值分解
+A symmetric matrix can be decomposed into:A=UDU⊤<br>
+such that **D** is diagonal,and**U** is orthogonal. **D**is Eigenvalue.<br>
+### Symmetric Positive Definition
+**A** is s.p.d.if only if:**v⊤Av**>0,for any **V**≠0.<br>
+**A** is symmetric semi-definite if only if:**v⊤Av**≥0,for any**v**≠0.<br>
+meaning:d>0 **v⊤dv**>0<br>
+d0,d1..>0 **v⊤Dv**=**v⊤[di diagonal matrix]v**>0<br>
+**v⊤(UDU⊤)v**=**(U⊤v)(D)(U⊤v)**>0 **U**orthogonal.<br>
+A is s.p.d.if only if all of its eigenvalues are positive.d0,d1..>0<br>
+A diagonally dominant matrix is s.p.d.<br>
+diagonally dominant matrix:对角上的值大于非对角绝对值的和<br>
+A s.p.d matrix is invertible.A⁻¹can't be [0]<br>
+
+
+
+
+
+
 
 
 
