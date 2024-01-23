@@ -178,9 +178,11 @@ It contains two steps:factorization and solving.IF we must solve many linear sys
 ![](https://github.com/ci-collection/Notes/blob/main/GAMES103/picture/Lecture02f.png)<br>
 ### Taylor Expansion
 ![](https://github.com/ci-collection/Notes/blob/main/GAMES103/picture/Lecture02g.png)<br>
-
-
-
+Quiz:<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/picture/Lecture02i.png)<br>
+Example:<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/picture/Lecture02j.png)<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/picture/Lecture02k.png)<br>
 
 
 
