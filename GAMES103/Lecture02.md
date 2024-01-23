@@ -170,8 +170,11 @@ It contains two steps:factorization and solving.IF we must solve many linear sys
 ![](https://github.com/ci-collection/Notes/blob/main/GAMES103/picture/Lecture02b.png)<br>
 <br>
 ![](https://github.com/ci-collection/Notes/blob/main/GAMES103/picture/Lecture02c.png)<br>
-
-
+## Tensor Calculus
+### Basic Concepts:1st-Order Derivatives
+b<br>
+### Basic Concepts:2nd-Order Derivatives
+a<br>
 
 
 
