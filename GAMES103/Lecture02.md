@@ -169,6 +169,7 @@ It contains two steps:factorization and solving.IF we must solve many linear sys
 **Iterative Linear Solver**<br>
 ![](https://github.com/ci-collection/Notes/blob/main/GAMES103/picture/Lecture02b.png)<br>
 <br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/picture/Lecture02c.png)<br>
 
 
 
