@@ -175,6 +175,7 @@ It contains two steps:factorization and solving.IF we must solve many linear sys
 b<br>
 ### Basic Concepts:2nd-Order Derivatives
 a<br>
+### Taylor Expansion
 
 
 
