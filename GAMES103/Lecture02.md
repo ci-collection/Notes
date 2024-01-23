@@ -163,7 +163,7 @@ x=**A⁻¹b** but it's too expensive to compute **A⁻¹**<br>
 <br>
 Direct Linear Solver<br>
 A direct solver is typically based LU factorization,or its variant:Cholesky...<br>
-
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/picture/Lecture02a.png)<br>
 
 
 
