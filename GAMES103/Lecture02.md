@@ -154,7 +154,7 @@ diagonally dominant matrix:对角上的值大于非对角绝对值的和<br>
 A s.p.d matrix is invertible.A⁻¹can't be [0]<br>
 <br>
 <div align="center">
-  <img src="https://github.com/******/dbscan_clustering_algorithm/blob/master/data/DBSCAN.png">
+  <img src="https://github.com/ci-collection/Notes/blob/main/GAMES103/picture/Lecture02.png">
 </div>
 
 
