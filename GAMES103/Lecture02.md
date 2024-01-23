@@ -164,6 +164,7 @@ x=**A⁻¹b** but it's too expensive to compute **A⁻¹**<br>
 **Direct Linear Solver**<br>
 A direct solver is typically based LU factorization,or its variant:Cholesky...<br>
 ![](https://github.com/ci-collection/Notes/blob/main/GAMES103/picture/Lecture02a.png)<br>
+It contains two steps:factorization and solving.IF we must solve many linear systems with the same**A**,we can factorize it only once.<br>
 <br>
 **Iterative Linear Solver**<br>
 ![](https://github.com/ci-collection/Notes/blob/main/GAMES103/picture/Lecture02b.png)<br>
