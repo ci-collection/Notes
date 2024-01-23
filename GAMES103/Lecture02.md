@@ -153,7 +153,7 @@ A diagonally dominant matrix is s.p.d.<br>
 diagonally dominant matrix:对角上的值大于非对角绝对值的和<br>
 A s.p.d matrix is invertible.A⁻¹can't be [0]<br>
 <br>
-![](https://github.com/ci-collection/Notes/raw/GAMES103/picture/Lecture02.png)
+![](https://github.com/cicollection/Notes/blob/main/GAMES103/picture/Lecture02.png)<br>
 
 
 
