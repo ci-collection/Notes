@@ -39,6 +39,21 @@ Rotation Represented by Quaternion<br>
 m<br>
 In Unity<br>
 n<br>
+Roatatinal Motion<br>
+o<br>
+要知道**q**对时间的导数**w**角速度(旋转速度)<br>
+Torque(f) and Inertia(M)<br>
+p<br>
+ri/Rri:旋转前/后点的位置 fi:力<br>
+Inertia<br>
+q<br>
+对旋转来说M是一个矩阵<br>
+mi:每一个点的质量 Iref:ref状态下3x3的矩阵<br>
+**更新状态方程**<br>
+r<br>
+
+
+
 
 
 
