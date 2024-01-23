@@ -51,8 +51,13 @@ q<br>
 mi:每一个点的质量 Iref:ref状态下3x3的矩阵<br>
 **更新状态方程**<br>
 r<br>
-
-
+最后要normalize**q**.**W**要定义<br>
+## overall Rigid Body Simulation
+s<br>
+In practice,we update the same state variable s={v,x,w,q}<br>
+renew them every time<br>
+## implementation Issues
+t<br>
 
 
 
