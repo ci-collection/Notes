@@ -161,9 +161,13 @@ Many numerical problems are ended up with solving a linear system:<br>
 **A**:square matrix **b**:boundary vector x:unknown to be founded<br>
 x=**A⁻¹b** but it's too expensive to compute **A⁻¹**<br>
 <br>
-Direct Linear Solver<br>
+**Direct Linear Solver**<br>
 A direct solver is typically based LU factorization,or its variant:Cholesky...<br>
 ![](https://github.com/ci-collection/Notes/blob/main/GAMES103/picture/Lecture02a.png)<br>
+<br>
+**Iterative Linear Solver**<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/picture/Lecture02b.png)<br>
+<br>
 
 
 
