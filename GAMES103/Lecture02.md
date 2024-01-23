@@ -154,6 +154,15 @@ diagonally dominant matrix:对角上的值大于非对角绝对值的和<br>
 A s.p.d matrix is invertible.A⁻¹can't be [0]<br>
 <br>
 ![](https://github.com/ci-collection/Notes/blob/main/GAMES103/picture/Lecture02.png)
+<br>
+### Linear Solver
+Many numerical problems are ended up with solving a linear system:<br>
+**A**x=**b**<br>
+**A**:square matrix **b**:boundary vector x:unknown to be founded<br>
+x=**A⁻¹b** but it's too expensive to compute **A⁻¹**<br>
+<br>
+Direct Linear Solver<br>
+A direct solver is typically based LU factorization,or its variant:Cholesky...<br>
 
 
 
