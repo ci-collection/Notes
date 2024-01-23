@@ -152,6 +152,7 @@ A is s.p.d.if only if all of its eigenvalues are positive.d0,d1..>0<br>
 A diagonally dominant matrix is s.p.d.<br>
 diagonally dominant matrix:对角上的值大于非对角绝对值的和<br>
 A s.p.d matrix is invertible.A⁻¹can't be [0]<br>
+<br>
 
 
 
