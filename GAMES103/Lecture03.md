@@ -1,14 +1,14 @@
 # Rigid Body Dynamics
 ## Rigid Body Simulation
 The goal of simulation is to update the state variable **S** over time<br>
-0<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureA/Lecture03.png)<br>
 If a rigid body cannot deform,its motion consists of two parts:translation and rotation.<br>
-a<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureA/Lecture03a.png)<br>
 v=上一个时刻的速度(dx/dt)加上加速度的积分=力的积分除以M<br>
 (semi-implicit)integration<br>
-e<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureA/Lecture03e.png)<br>
 leapfrog method,把速度和位置看成错开的<br>
-f<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureA/Lecture03f.png)<br>
 ## Integration Methods Explained
 显式积分使用v(t0)<br>
 b<br>
