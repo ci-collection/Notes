@@ -54,6 +54,7 @@ mi:每一个点的质量 Iref:ref状态下3x3的矩阵<br>
 最后要normalize**q**.**W**要定义<br>
 ## overall Rigid Body Simulation
 ![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureA/Lecture03s.png)<br>
+左边是线性运动，右边是曲线运动<br>
 In practice,we update the same state variable s={v,x,w,q}<br>
 renew them every time<br>
 ## implementation Issues
