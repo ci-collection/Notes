@@ -28,36 +28,38 @@ Log-barrier method can be limited within a buffer as well.
 Frictional contacts are difficult to handle.<br>
 ### Impulse Method
 An impulse method assumes that collision changes the position and the velocity all of suddenn.<br>
-位置f<br>
-速度g<br>
+位置![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04f.png)<br>
+速度![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04g.png)<br>
 ųn在0~1之间防止overshooting a是摩擦导致水平方向的衰减<br>
 a满足库伦定律 ųt是某一个摩擦系数 max:摩擦力不会让水平速度反转<br>
 max(dynamic friction,static friction)<br>
 ## Rigid Body Collision Detection and Response
 ### Rigid Body Collision Detection
-h<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04h.png)<br>
 表面点的位置Xi 质心点X 检测∅(x)>0<br>
 ### Rigid Body Collision Response by Impulse
-i<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04i.png)<br>
 **v**质点的速度
 Problem:we cannot directly modify Xi or Vi,since they are not state variables<br>
 Impulse 简化只修改Vi 也就是说只用改**v**和**w**<br>
-jkl<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04j.png)
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04k.png)
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04l.png)<br>
 Impulse反求j:j change **vnew wnew**change **vinew**change and compare with **vi** <br>
 △**vi**=Kj receive j<br>
-m<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04m.png)<br>
 ### Implementation Details
 If there are many vertices in collision,we use their averge position.<br>
 We can decrease the restitution ųn to reduce oscillation(由于受重力不断弹跳)<br>
 We don't renew position here.<br>
 ## Shape Match
 ### Basic Idea
-n<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04n.png)<br>
 粒子模拟再让点重新聚合回一个缸体<br>
-o<br>
-p<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04o.png)<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04p.png)<br>
 刚体不想要本地形变直接删去S<br>
-q<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04q.png)<br>
 
 
 
