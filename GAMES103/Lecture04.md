@@ -58,9 +58,10 @@ We don't renew position here.<br>
 粒子模拟再让点重新聚合回一个缸体<br>
 ![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04o.png)<br>
 ![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04p.png)<br>
-刚体不想要本地形变直接删去S<br>
 ![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04q.png)<br>
-
+刚体不想要本地形变直接删去S<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04s.png)<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04t.png)<br>
 
 
 
