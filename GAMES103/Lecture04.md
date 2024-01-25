@@ -3,21 +3,21 @@
 ### Signed Distance Function
 A signed distance function ∅(x) defines the distance from x to a surface with a sign.<br>
 The sign indicates on which side x is located.>0 outside ; <0 inside ; =0 on the surface<br>
-0<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04.png)<br>
 ### Intersection of Signed Distance Function
-a<br>
-b<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04a.png)<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04b.png)<br>
 在外侧就不用算minmax，因为没有碰撞<br>
 ### Quadratic Penalty Method
 A penalty method applies a penalty force in the next update.When the penalty potential is quadratic,the force is linear.<br>
-c<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04c.png)<br>
 方向是∇∅(x)使他增大最快；大小是-∅(x)为正值.k类似弹簧系数<br>
 缺点是一定会穿模<br>
 ### Quadratic Penalty Method with a Buffer
-d<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04d.png)<br>
 给一个缓冲空间，但是物体v太大，F可能推不动，也可能飞太远 overshooting<br>
 ### Log-Barrier Penalty Method
-e<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04e.png)<br>
 利用距离减小系数<br>
 绝不能发生穿透，使用小步长增加了消耗<br>
 ### Summary of Penalty Methods
