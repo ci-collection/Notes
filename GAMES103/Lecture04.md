@@ -60,8 +60,8 @@ We don't renew position here.<br>
 ![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04p.png)<br>
 ![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04q.png)<br>
 刚体不想要本地形变直接删去S<br>
+![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04r.png)<br>
 ![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04s.png)<br>
-![](https://github.com/ci-collection/Notes/blob/main/GAMES103/pictureB/Lecture04t.png)<br>
 
 
 
